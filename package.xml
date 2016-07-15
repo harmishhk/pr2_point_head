@@ -4,7 +4,7 @@
 
   <version>0.0.1</version>
 
-  <description>The pr2_point_head package</description>
+  <description>The pr2_point_head package continuoulsy receives pointing goals as geometry_msgs/PointStamped and sends them as goals to the pr2_head_action server.</description>
 
   <maintainer email="harmish@laas.fr">harmish khambhaita</maintainer>
 
