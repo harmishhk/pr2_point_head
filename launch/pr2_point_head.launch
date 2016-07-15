@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="pr2_point_head" type="pr2_point_head" name="pr2_point_head" output="screen">
+        <param name="point_head_topic" value="point_head"/>
+        <!--<param name="pointing_frame" value="head_plate_frame"/>-->
+        <!--<param name="point_head_client_name" value="/head_traj_controller/point_head_action"/>-->
+    </node>
+</launch>
